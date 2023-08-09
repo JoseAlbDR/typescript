@@ -21,3 +21,9 @@ c = "Alberto";
 function sayHello(msg: string) {
   console.log(msg);
 }
+
+// Funcion anonima autoinvocada
+(() => {
+  const a: number = 10;
+  console.log(a);
+})();

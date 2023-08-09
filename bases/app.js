@@ -18,3 +18,8 @@ c = "Alberto";
 function sayHello(msg) {
     console.log(msg);
 }
+// Funcion anonima autoinvocada
+(() => {
+    const a = 10;
+    console.log(a);
+})();
