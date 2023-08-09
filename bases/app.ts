@@ -1,10 +1,23 @@
-const msg: string = "Hola mundo";
+// a: 10 porque es const explicito
+// const a: number implicito
+const a: number = 10;
 
-const hero = {
-  name: "Ironman",
-  age: 45,
-};
+// b: number porque es let implicito
+// let b: number explicito
+let b: number = 10;
 
-hero.age = 50;
+// Declaracion c como string
+let c: string;
+c = "Alberto";
+// c = 50 ERROR
 
-console.log(hero);
+// Error porque msg no tiene una declaracion explicita
+// msg tiene un any
+// function sayHello(msg) {
+//   console.log(msg);
+// }
+
+// Declaracion implicita de msg como string
+function sayHello(msg: string) {
+  console.log(msg);
+}
