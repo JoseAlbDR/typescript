@@ -24,6 +24,6 @@
     console.log(character.realName);
   };
 
-  printName(wolverine);
-  printName(magneto);
+  // printName(wolverine);
+  // printName(magneto);
 })();
