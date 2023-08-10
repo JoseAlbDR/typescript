@@ -10,6 +10,6 @@
         console.log("estamos salvados");
     }
     avengers = Number("123A");
-    console.log({ avengers }); // NaN que sigue siendo un numero
+    console.log({ avengers });
 })();
 //# sourceMappingURL=numbers.js.map
