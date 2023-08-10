@@ -15,12 +15,18 @@
     poder: 1500,
   };
 
-  // const { poder, vision } = avengers;
+  const { poder: power, vision } = avengers;
 
-  // console.log(poder, vision.toUpperCase());
+  console.log(power, vision.toUpperCase());
 
   const printAvenger = ({ vision, ...resto }: Avengers): void =>
     console.log(vision, resto);
 
   printAvenger(avengers);
+
+  const avengersArr: string[] = ["Cap. América", "Ironman", "Hulk"];
+
+  const [capi, ironman] = avengersArr;
+
+  console.log({ ironman, capi });
 })();

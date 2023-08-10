@@ -18,11 +18,16 @@ var __rest = (this && this.__rest) || function (s, e) {
         activo: true,
         poder: 1500,
     };
+    const { poder: power, vision } = avengers;
+    console.log(power, vision.toUpperCase());
     const printAvenger = (_a) => {
         var { vision } = _a, resto = __rest(_a, ["vision"]);
         return console.log(vision, resto);
     };
     printAvenger(avengers);
+    const avengersArr = ["Cap. América", "Ironman", "Hulk"];
+    const [capi, ironman] = avengersArr;
+    console.log({ ironman, capi });
 })();
 (() => {
 })();
