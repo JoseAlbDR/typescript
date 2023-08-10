@@ -1,7 +1,14 @@
-import Hero from "./classes/Hero";
-import { powers } from "./data/powers";
+import {
+  printObject,
+  genericFunction,
+  genericFunctionArrow,
+} from "./genercis/generics";
 
-const ironman = new Hero("Ironman", 1, 40);
+// printObject(123);
+// printObject(new Date().toLocaleDateString());
+// printObject({ a: 1, b: 2, c: 3, d: 4 });
+// printObject([1, 2, 3, 4]);
 
-console.log(ironman);
-console.log(powers.at(-1)?.desc);
+console.log(genericFunction(3.141916).toFixed(2));
+console.log(genericFunction("Hola Mundo").split(" "));
+console.log(genericFunctionArrow(new Date()).toUTCString());
