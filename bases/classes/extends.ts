@@ -34,14 +34,14 @@
     }
   }
 
-  const wolverine = new Xmen("Wolverine", "Logan", true);
+  // const wolverine = new Xmen("Wolverine", "Logan", true);
 
-  console.log(wolverine);
+  // console.log(wolverine);
 
-  console.log(wolverine.getFullNameDesdeXmen());
+  // console.log(wolverine.getFullNameDesdeXmen());
 
-  console.log(wolverine.fullName);
+  // console.log(wolverine.fullName);
 
-  wolverine.fullName = "Fe";
-  console.log(wolverine.fullName);
+  // wolverine.fullName = "Fe";
+  // console.log(wolverine.fullName);
 })();
