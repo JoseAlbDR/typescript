@@ -8,3 +8,4 @@
     console.log(a);
     // undefined !== null !== void
 })();
+//# sourceMappingURL=void.js.map

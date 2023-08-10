@@ -6,3 +6,4 @@
     numbers.push(11);
     console.log(numbers);
 })();
+//# sourceMappingURL=arrays.js.map

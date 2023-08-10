@@ -12,3 +12,4 @@
     avengers = Number("123A");
     console.log({ avengers }); // NaN que sigue siendo un numero
 })();
+//# sourceMappingURL=numbers.js.map

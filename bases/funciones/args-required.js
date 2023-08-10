@@ -7,3 +7,4 @@
     const name = fullName(noName, "Stark");
     console.log(name);
 })();
+//# sourceMappingURL=args-required.js.map

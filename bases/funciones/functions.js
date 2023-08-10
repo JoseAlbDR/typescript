@@ -10,3 +10,4 @@
     console.log(typeof activateBatSignal);
     const heroName = returnName();
 })();
+//# sourceMappingURL=functions.js.map
