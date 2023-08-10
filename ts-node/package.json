@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "typescript": "^4.3.5",
+    "typescript": "^5",
     "webpack": "^5.49.0",
     "webpack-dev-server": "^3.11.2"
   },
