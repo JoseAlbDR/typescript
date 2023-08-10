@@ -1,43 +1,41 @@
 "use strict";
-(() => {
-    let flash = {
-        name: "Barry Allen",
-        age: 24,
-        powers: ["Super velocidad", "Viajar en el tiempo"],
-    };
-    let superman = {
-        name: "Clark Kent",
-        age: 60,
-        powers: ["Super fuerza"],
-        getName() {
-            return this.name;
-        },
-    };
-})();
-(() => {
-    const client = {
-        name: "Fernando",
-        age: 25,
-        address: {
-            id: 125,
-            zip: "KY2 SUDHI",
-            city: "Ottawa",
-        },
-        getFullAddress(id) {
-            return this.address.city;
-        },
-    };
-    const client2 = {
-        name: "Melissa",
-        age: 30,
-        address: {
-            city: "Toronto",
-            id: 120,
-            zip: "K2S U23",
-        },
-        getFullAddress(id) {
-            return this.address.city;
-        },
-    };
-})();
+const conducirBatimovil = (auto) => {
+    auto.encender = true;
+    auto.velocidadMaxima = 100;
+    auto.acelerar();
+};
+const batimovil = {
+    encender: false,
+    velocidadMaxima: 0,
+    acelerar() {
+        console.log("...... gogogo!!!");
+    },
+};
+conducirBatimovil(batimovil);
+const guason = {
+    reir: true,
+    comer: true,
+    llorar: false,
+};
+const reir = (guason) => {
+    if (guason.reir) {
+        console.log("JAJAJAJA");
+    }
+};
+const ciudadGotica = (ciudadanos) => {
+    return ciudadanos.length;
+};
+class Persona {
+    constructor(nombre, edad, sexo, estadoCivil) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.sexo = sexo;
+        this.estadoCivil = estadoCivil;
+    }
+    imprimirBio() {
+        console.log(`${this.nombre}`);
+    }
+}
+const yo = new Persona("Jose", 39, "masculino", "casado");
+yo.imprimirBio();
 //# sourceMappingURL=main.js.map
