@@ -15,4 +15,6 @@ const charmander = new Pokemon("Charmander");
 
 // console.log(charmander);
 
-charmander.savePokemonToDB(-50);
+// charmander.savePokemonToDB(-50);
+
+console.log(charmander);
